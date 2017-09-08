@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nijas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ninja.css') }}">
+    <!-- linking a javascript file -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/my_script.js') }}"></script>
+</head>
+
+<body class="container">
+    <h3>Welcome to the Ninja Landing Page</h3>
+    <!-- linking an image -->
+    <img src="{{ url_for('static', filename='img/ninja1.jpg') }}">
+</body>
+
+</html>

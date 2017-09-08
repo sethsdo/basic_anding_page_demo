@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dojos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dojo.css') }}">
+    <!-- linking a javascript file -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/my_script.js') }}"></script>
+</head>
+
+<body class="container">
+    <h3>Dojos Page</h3>
+    <h3>Create a User</h3>
+    <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+    <form action='' method='post'>
+        Name: <input type='text' name='name'> 
+        Email: <input type='text' name='email'>
+        <input type='submit' value='create user'>
+    </form>
+</body>
+
+</html>
